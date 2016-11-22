@@ -1,11 +1,13 @@
 This project is designed to help get people started with test driven development using the newer features of Javascript ES6 and the Jasmine testing framework.
 
 To set up the project locally
-1. git clone the repo
-2. npm install the dependencies
-3. Run ````gulp watch```` and leave it running while you work with your tests.
-4. In another tab, run ```gulp jasmine-browser```
-5. Open your browser to localhost:8888
+<ol>
+<li> git clone the repo </li>
+<li> npm install the dependencies </li>
+<li> Run ````gulp watch```` and leave it running while you work with your tests. </li>
+<li>  In another tab, run ```gulp jasmine-browser``` </li>
+<li> Open your browser to localhost:8888 </li>
+</ol>
 
 You should see a failing test in the browser.
 

@@ -2,7 +2,7 @@
 
 describe('example test', () => {
     it('works', () => {
-        expect(false).toBe(true);
+        expect(true).toBe(true);
 
     });
 

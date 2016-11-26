@@ -9,7 +9,7 @@ gulp.task('clean', () => del(['dist/*', '!dist/.gitkeep']));
 
 gulp.task('babel', () => {
   return mergeStream(
-      gulp.src('src/**/*.js').pipe(plugins.babel()),
+      gulp.src('spec/**/*.js').pipe(plugins.babel()),
       gulp.src(['LICENSE', 'README.md', 'package.json'])
   ).pipe(gulp.dest('dist'));
 });

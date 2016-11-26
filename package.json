@@ -8,9 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cursivejs/tdd-with-jasmine.git"
+    "url": "cursivejs/tdd-with-jasmine.git"
   },
-  "keywords": [],
   "author": "marlena.compton@gmail.com",
   "license": "MIT",
   "devDependencies": {
@@ -20,6 +19,7 @@
     "babel-polyfill": "^6.13.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-latest": "^6.16.0",
     "babel-preset-stage-0": "^6.5.0",
     "del": "^2.2.1",
     "gulp": "^3.9.0",
@@ -29,6 +29,7 @@
     "gulp-jasmine-browser": "^1.7.1",
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-plumber": "^1.0.1",
+    "jasmine-async-suite": "0.0.7",
     "merge-stream": "^1.0.0",
     "multipipe": "^0.3.1",
     "npm": "^3.10.5",
